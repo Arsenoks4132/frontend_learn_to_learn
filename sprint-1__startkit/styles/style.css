@@ -25,9 +25,7 @@
 }
 
 .logo_place_footer {
-  position: static;
-  top: 0;
-  left: 0;
+  position: relative;
 }
 
 
@@ -220,6 +218,33 @@
 
 
 
+/*Модификаторы для тёмной темы*/
+
+.section-title_theme_dark {
+  margin: 90px 0 0 0;
+
+  color: white;
+}
+
+.section-subttitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
+  margin-bottom: 90px;
+}
+
+.table__cell_theme_dark {
+  margin: 80px 0 0 0;
+
+  width: 200px;
+  color: white;
+}
+
+
+
+
+
 .feynman {
   margin: 0;
   position: relative;
@@ -270,22 +295,96 @@
 
 
 
+.kaufman {
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -15;
+
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  right: -210px;
+  z-index: -14;
+}
 
 
 
+.footer {
+  margin: 0;
+  padding: 60px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -15;
 
+  box-sizing: border-box;
 
+  min-height: 350px;
+  height: 350px;
 
-
-
-
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  margin-right: 0;
-  margin-top: 80px;
-
-  width: 200px;
-
+  background-color: #1f1f1f;
   color: white;
+}
+
+.footer__columns {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 100%;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  margin: 18px 0;
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px 0;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 0 0 16px 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social-icon{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__column-link {
+  color: #f2f2f2;
+  margin: 0;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
