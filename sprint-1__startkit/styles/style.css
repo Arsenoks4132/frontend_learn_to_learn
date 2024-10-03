@@ -10,7 +10,7 @@
 
 
 .logo {
-  z-index: 10;
+  z-index: 5;
 
   width: 228px;
   height: 32px;
@@ -33,7 +33,6 @@
   margin: 0;
   padding: 0;
   display: flex;
-  z-index: -15;
 
   height: 100vh;
   min-height: 600px;
@@ -45,6 +44,7 @@
 .header__title {
   margin: auto;
   margin-left: 64px;
+  z-index: 5;
 
   width: 730px;
 
@@ -68,6 +68,8 @@
 }
 
 .header__link {
+  z-index: 5;
+
   text-decoration: none;
   color: #2f80ed;
 }
@@ -76,7 +78,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: -4;
+  z-index: 4;
 
   width: 765px;
   height: 608px;
@@ -86,7 +88,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -5;
+  z-index: 3;
 
   height: 568px;
   width: 568px;
@@ -189,6 +191,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  z-index: 5;
 
   width: 1100px;
 }
@@ -248,7 +251,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: -15;
 
   height: 890px;
 
@@ -262,6 +264,7 @@
 .feynman__title {
   margin: 100px 0 0 0;
   text-align: center;
+  z-index: 5;
 
   width: 648px;
 
@@ -272,6 +275,7 @@
 
 .feynman__subtitle {
   margin: 70px 0 0 0;
+  z-index: 5;
 
   line-height: 51px;
   font-size: 36px;
@@ -282,6 +286,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  z-index: 5;
 
   text-decoration: none;
   line-height: 51px;
@@ -298,7 +303,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: -15;
 
   background-color: #1f1f1f;
   overflow: hidden;
@@ -307,7 +311,7 @@
 .kaufman__triangle {
   position: absolute;
   right: -210px;
-  z-index: -14;
+  z-index: 1;
 }
 
 
