@@ -22,16 +22,10 @@
   left: 64px;
 }
 
-.logo_place_footer {
-  position: relative;
-}
-
-
 
 .header {
-  position: relative;
   margin: 0;
-  padding: 0;
+  position: relative;
   display: flex;
 
   height: 100vh;
@@ -98,7 +92,8 @@
 
 
 .description {
-  margin-top: 100px;
+  margin: 0;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -153,8 +148,8 @@
 
 
 .digits {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 0;
+  padding: 100px 0 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,6 +159,7 @@
 
 .section-title {
   margin: 0;
+  padding-bottom: 20px;
   text-align: center;
   z-index: 5;
 
@@ -177,7 +173,7 @@
 
 
 .section-subttitle {
-  margin: 20px 0 0 0;
+  margin: 0;
   text-align: center;
   z-index: 5;
 
@@ -230,10 +226,6 @@
 
 .section-subttitle_theme_dark {
   color: white;
-}
-
-.table_theme_dark {
-  margin-bottom: 90px;
 }
 
 .table__cell_theme_dark {
@@ -301,6 +293,7 @@
 
 .kaufman {
   margin: 0;
+  padding-bottom: 90px;
   position: relative;
   display: flex;
   flex-direction: column;
